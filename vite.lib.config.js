@@ -13,8 +13,8 @@ export default defineConfig({
       fileName: (format) => format === "es" ? "nmapvuejs.es.js" : "nmapvuejs.cjs.js",
     },
     rollupOptions: {
-      // vue and maplibre-gl are deps/peers — npm installs them, don't bundle them
-      external: ["vue", "maplibre-gl"],
+      // maplibre-gl is bundled — CSS is inlined into output
+      external: ["vue"],
       output: {
         globals: {
           vue: "Vue",
