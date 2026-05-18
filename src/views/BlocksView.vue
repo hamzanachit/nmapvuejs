@@ -49,7 +49,7 @@
       <!-- Sidebar footer -->
       <div class="p-4 border-t shrink-0">
         <a
-          href="https://github.com/hamzanachit/nmapjs"
+          href="https://github.com/hamzanachit/nmapvuejs"
           target="_blank"
           rel="noopener"
           class="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors px-2 py-1.5 rounded-md hover:bg-accent/50"

@@ -23,7 +23,7 @@
     <div class="flex-1 container py-16 max-w-4xl">
       <h1 class="text-4xl font-bold mb-6">Theme System</h1>
       <p class="text-lg text-muted-foreground mb-8">
-        NMapJS comes with a built-in theme system that supports light and dark modes with automatic detection and persistence.
+        NMapVueJS comes with a built-in theme system that supports light and dark modes with automatic detection and persistence.
       </p>
 
       <div class="space-y-8">

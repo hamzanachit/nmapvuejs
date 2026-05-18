@@ -1,4 +1,4 @@
-// NMapJS - Beautiful map components for Vue.js
+// NMapVueJS - Beautiful map components for Vue.js
 // Export all components for npm package
 
 export { default as NMap } from "./components/Map.vue";

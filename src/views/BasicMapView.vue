@@ -20,7 +20,7 @@
     <div class="flex-1 p-8">
       <div class="max-w-3xl">
         <h1 class="text-3xl font-bold mb-4">Basic Map</h1>
-        <p class="text-muted-foreground mb-8">The NMap component is the foundation of NMapJS. It provides a full-screen map with theme detection and sensible defaults.</p>
+        <p class="text-muted-foreground mb-8">The NMap component is the foundation of NMapVueJS. It provides a full-screen map with theme detection and sensible defaults.</p>
 
         <div class="rounded-xl border overflow-hidden mb-8">
           <div class="h-[400px]">

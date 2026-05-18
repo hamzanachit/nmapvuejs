@@ -20,7 +20,7 @@
     <div class="flex-1 p-8">
       <div class="max-w-3xl">
         <h1 class="text-3xl font-bold mb-4">Installation</h1>
-        <p class="text-muted-foreground mb-8">Get started with NMapJS in your Vue.js project.</p>
+        <p class="text-muted-foreground mb-8">Get started with NMapVueJS in your Vue.js project.</p>
 
         <div class="space-y-6">
           <div>

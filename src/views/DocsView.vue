@@ -10,7 +10,7 @@
     </aside>
     <div class="flex-1 p-8">
       <div class="max-w-3xl">
-        <h1 class="text-3xl font-bold mb-4">NMapJS Documentation</h1>
+        <h1 class="text-3xl font-bold mb-4">NMapVueJS Documentation</h1>
         <p class="text-muted-foreground mb-8">Beautiful map components for Vue.js. Free & open-source.</p>
         
         <div class="space-y-4">
@@ -33,7 +33,7 @@
 import { RouterLink } from "vue-router";
 
 const docsNav = [
-  { title: "Installation", href: "/docs/installation", description: "Get started with NMapJS in your project" },
+  { title: "Installation", href: "/docs/installation", description: "Get started with NMapVueJS in your project" },
   { title: "Basic Map", href: "/docs/basic-map", description: "Learn the basics of the NMap component" },
   { title: "Markers", href: "/docs/markers", description: "Add markers to your map" },
   { title: "Popups", href: "/docs/popups", description: "Display popups on markers" },

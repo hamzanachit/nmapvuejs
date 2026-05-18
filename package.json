@@ -1,16 +1,16 @@
 {
   "name": "nmapvuejs",
-  "version": "1.0.0",
-  "description": "Beautiful map components for Vue.js. Built on MapLibre GL, styled with Tailwind CSS, designed to work with shadcn/ui.",
+  "version": "1.0.1",
+  "description": "Beautiful map components for Vue.js. Built on MapLibre GL, styled with Tailwind CSS.",
   "private": false,
   "type": "module",
-  "main": "dist/nmapjs.cjs.js",
-  "module": "dist/nmapjs.es.js",
-  "style": "dist/nmapjs.css",
+  "main": "dist/nmapvuejs.cjs.js",
+  "module": "dist/nmapvuejs.es.js",
+  "style": "dist/nmapvuejs.css",
   "exports": {
     ".": {
-      "import": "./dist/nmapjs.es.js",
-      "require": "./dist/nmapjs.cjs.js"
+      "import": "./dist/nmapvuejs.es.js",
+      "require": "./dist/nmapvuejs.cjs.js"
     }
   },
   "files": [
@@ -30,23 +30,23 @@
     "maplibre-gl",
     "maps",
     "components",
-    "shadcn",
-    "shadcn-ui",
     "vue-components"
   ],
   "author": "hamzanachit",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamzanachit/nmapjs.git"
+    "url": "git+https://github.com/hamzanachit/nmapvuejs.git"
   },
   "bugs": {
-    "url": "https://github.com/hamzanachit/nmapjs/issues"
+    "url": "https://github.com/hamzanachit/nmapvuejs/issues"
   },
-  "homepage": "https://github.com/hamzanachit/nmapjs",
+  "homepage": "https://github.com/hamzanachit/nmapvuejs",
   "peerDependencies": {
-    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0",
     "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.23",
@@ -55,7 +55,6 @@
     "@vitejs/plugin-vue": "^5.2.3",
     "autoprefixer": "^10.4.20",
     "clsx": "^2.1.1",
-    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0",
     "postcss": "^8.5.3",
     "tailwind-merge": "^3.6.0",
     "tailwindcss": "^4.1.4",

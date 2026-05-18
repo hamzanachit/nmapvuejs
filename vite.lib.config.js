@@ -8,13 +8,13 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/index.js"),
-      name: "NMapJS",
+      name: "NMapVueJS",
       formats: ["es", "cjs"],
-      fileName: (format) => format === "es" ? "nmapjs.es.js" : "nmapjs.cjs.js",
+      fileName: (format) => format === "es" ? "nmapvuejs.es.js" : "nmapvuejs.cjs.js",
     },
     rollupOptions: {
-      // Do not bundle vue or maplibre-gl — consumers provide these
-      external: ["vue", "maplibre-gl"],
+      // Do not bundle vue — consumers provide this
+      external: ["vue"],
       output: {
         globals: {
           vue: "Vue",

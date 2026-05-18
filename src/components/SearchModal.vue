@@ -50,7 +50,7 @@
             <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 bg-muted rounded">↑</kbd><kbd class="px-1.5 py-0.5 bg-muted rounded">↓</kbd> Navigate</span>
             <span class="flex items-center gap-1"><kbd class="px-1.5 py-0.5 bg-muted rounded">↵</kbd> Select</span>
           </div>
-          <span>Powered by NMapJS</span>
+          <span>Powered by NMapVueJS</span>
         </div>
       </div>
     </div>
@@ -69,7 +69,7 @@ const selectedIndex = ref(0);
 
 const navItems = [
   { name: "Getting Started", icon: "🚀", items: [
-    { title: "Installation", path: "/docs/installation", description: "Install and setup NMapJS" },
+    { title: "Installation", path: "/docs/installation", description: "Install and setup NMapVueJS" },
     { title: "Quick Start", path: "/docs/basic-map", description: "Create your first map" },
   ]},
   { name: "Components", icon: "🧩", items: [
