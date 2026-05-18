@@ -1,6 +1,6 @@
 {
   "name": "nmapvuejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Beautiful map components for Vue.js. Built on MapLibre GL, styled with Tailwind CSS.",
   "private": false,
   "type": "module",
