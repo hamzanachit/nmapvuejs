@@ -22,7 +22,7 @@
 
         <div class="mt-12 p-6 rounded-lg border bg-card">
           <h2 class="font-semibold mb-2">Quick Install</h2>
-          <pre class="bg-muted p-4 rounded-lg text-sm overflow-x-auto">npm install nmapjs</pre>
+          <pre class="bg-muted p-4 rounded-lg text-sm overflow-x-auto">npm install nmapvuejs</pre>
         </div>
       </div>
     </div>

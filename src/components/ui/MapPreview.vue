@@ -28,6 +28,7 @@ onMounted(() => {
     style: props.style,
     center: props.center,
     zoom: props.zoom,
+    customAttribution: '<a href="https://github.com/hamzanachit/NMapJS" target="_blank">NMapVueJS</a>',
   });
 });
 

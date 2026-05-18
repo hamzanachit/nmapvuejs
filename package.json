@@ -1,7 +1,7 @@
 {
   "name": "nmapvuejs",
-  "version": "1.0.2",
-  "description": "Beautiful map components for Vue.js. Built on MapLibre GL, styled with Tailwind CSS.",
+  "version": "1.0.8",
+  "description": "Beautiful, production-ready map components for Vue.js. Built on MapLibre GL with zero config, theme-aware design, and 6 ready-made examples.",
   "private": false,
   "type": "module",
   "main": "dist/nmapvuejs.cjs.js",
@@ -11,7 +11,9 @@
     ".": {
       "import": "./dist/nmapvuejs.es.js",
       "require": "./dist/nmapvuejs.cjs.js"
-    }
+    },
+    "./dist/*": "./dist/*",
+    "./style.css": "./dist/nmapvuejs.css"
   },
   "files": [
     "dist"
@@ -46,7 +48,7 @@
     "vue": "^3.0.0"
   },
   "dependencies": {
-    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0"
+    "maplibre-gl": ">=3.0.0"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.23",

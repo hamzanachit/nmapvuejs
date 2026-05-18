@@ -84,7 +84,7 @@ const codeUsage = [
   '</template>',
   '',
   '<script setup>',
-  'import { NMap } from \'nmapjs\'',
+  'import { NMap } from \'nmapvuejs\'',
   '<\/script>',
 ].join('\n');
 </script>

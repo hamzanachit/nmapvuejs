@@ -1,11 +1,15 @@
 <template>
-  <div class="absolute inset-0">
+  <div class="relative w-full overflow-hidden rounded-xl" :style="{ height: props.height }">
     <div ref="mapRef" class="w-full h-full" />
   </div>
 </template>
 
 <script setup>
 import { ref, onMounted, onBeforeUnmount, watch } from "vue";
+
+const props = defineProps({
+  height: { type: String, default: '480px' },
+});
 import MapLibreGL from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { isDark } from "../../composables/useTheme";
@@ -37,6 +41,7 @@ const initMap = () => {
     style: getStyle(),
     center: [0, 30],
     zoom: 1.5,
+    customAttribution: '<a href="https://github.com/hamzanachit/NMapJS" target="_blank">NMapVueJS</a>',
   });
 
   map.on("load", () => {

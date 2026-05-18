@@ -1,6 +1,6 @@
 <template>
-  <div class="relative h-full w-full">
-    <div ref="containerRef" class="h-full w-full"></div>
+  <div :class="['relative h-full w-full', props.className]">
+    <div ref="containerRef" :class="['h-full w-full', props.className]"></div>
     <div v-if="(!isLoaded || loading)" class="bg-background/50 absolute inset-0 z-10 flex items-center justify-center backdrop-blur-xs">
       <div class="flex gap-1">
         <span class="bg-muted-foreground/60 size-1.5 animate-pulse rounded-full" />
@@ -42,6 +42,7 @@ onMounted(() => {
     style,
     center: props.center,
     zoom: props.zoom,
+    customAttribution: '<a href="https://github.com/hamzanachit/NMapJS" target="_blank">NMapVueJS</a>',
   });
 
   mapInstance.value.on("load", () => { isLoaded.value = true; });

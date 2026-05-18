@@ -69,7 +69,7 @@
         <!-- Page header -->
         <div class="flex items-end justify-between pb-8 mb-14 border-b">
           <div>
-            <p class="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">nmapjs</p>
+            <p class="text-xs font-semibold uppercase tracking-widest text-muted-foreground mb-2">nmapvuejs</p>
             <h1 class="text-3xl font-bold tracking-tight">Blocks</h1>
             <p class="text-muted-foreground mt-1.5">Ready-to-use map components. Preview live, copy the source.</p>
           </div>

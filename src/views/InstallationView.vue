@@ -56,9 +56,9 @@
 import { RouterLink } from 'vue-router';
 import CodeBlock from '../components/ui/CodeBlock.vue';
 
-const codeInstall = 'npm install nmapjs';
+const codeInstall = 'npm install nmapvuejs';
 
-const codeImport = 'import { NMap, NMarker } from "nmapjs";';
+const codeImport = 'import { NMap, NMarker } from "nmapvuejs";';
 
 const codeUsage = [
   '<template>',

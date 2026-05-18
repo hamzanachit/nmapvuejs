@@ -1,5 +1,5 @@
 <template>
-  <div class="absolute inset-0">
+  <div class="relative w-full overflow-hidden rounded-xl" :style="{ height: props.height }">
     <div ref="mapRef" class="w-full h-full" />
     <button @click="flyToDestination" class="absolute top-2 right-2 z-10 inline-flex items-center justify-center size-8 rounded-md bg-background border border-border shadow-sm hover:bg-accent">
       <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
@@ -12,6 +12,10 @@ import { ref, onMounted, onBeforeUnmount, watch } from "vue";
 import MapLibreGL from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 import { isDark } from "../../composables/useTheme";
+
+const props = defineProps({
+  height: { type: String, default: '480px' },
+});
 
 const destination = { name: "New York", description: "United States", center: [-74.006, 40.7128], startCenter: [10, 50] };
 
@@ -34,6 +38,7 @@ const initMap = () => {
     center: destination.startCenter,
     zoom: 1,
     projection: "globe",
+    customAttribution: '<a href="https://github.com/hamzanachit/NMapJS" target="_blank">NMapVueJS</a>',
   });
 
   map.on("load", () => {
