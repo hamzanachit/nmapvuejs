@@ -1,0 +1,64 @@
+{
+  "name": "nmapjs",
+  "version": "1.0.0",
+  "description": "Beautiful map components for Vue.js. Built on MapLibre GL, styled with Tailwind CSS, designed to work with shadcn/ui.",
+  "private": false,
+  "type": "module",
+  "main": "dist/nmapjs.cjs.js",
+  "module": "dist/nmapjs.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/nmapjs.es.js",
+      "require": "./dist/nmapjs.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "map",
+    "maplibre",
+    "maplibre-gl",
+    "maps",
+    "leaflet",
+    "components",
+    "shadcn",
+    "shadcn-ui",
+    "vue-components"
+  ],
+  "author": "hamzanachit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hamzanachit/nmapjs"
+  },
+  "bugs": {
+    "url": "https://github.com/hamzanachit/nmapjs/issues"
+  },
+  "homepage": "https://github.com/hamzanachit/nmapjs",
+  "peerDependencies": {
+    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0",
+    "vue": "^3.0.0"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@heroicons/vue": "^2.2.0",
+    "clsx": "^2.1.1",
+    "maplibre-gl": "^3.0.0 || ^4.0.0 || ^5.0.0",
+    "tailwind-merge": "^3.6.0",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.4",
+    "@vitejs/plugin-vue": "^5.2.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.4",
+    "vite": "^6.3.1",
+    "vue": "^3.5.13"
+  }
+}
