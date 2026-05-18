@@ -1,6 +1,6 @@
 {
   "name": "nmapvuejs",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Beautiful, production-ready map components for Vue.js. Built on MapLibre GL with zero config, theme-aware design, and 6 ready-made examples.",
   "private": false,
   "type": "module",
